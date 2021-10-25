@@ -28,7 +28,8 @@ void draw() {
  
 
 void mousePressed() {
-  if (mouseX > cookie1 && mouseX < cookie1 + 400 && mouseY > cookie2 && mouseY < cookie2 + 400) { yourScore++;
+  if (mouseX > cookie1 && mouseX < cookie1 + 400 && mouseY > cookie2 && mouseY < cookie2 + 400) { 
+   yourScore++;
   }
   
 }
