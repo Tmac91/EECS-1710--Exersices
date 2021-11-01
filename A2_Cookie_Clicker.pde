@@ -16,7 +16,7 @@ void draw()
 {
   background(100);
   image(cookie, cookieX, cookieY, 400, 400);
-  textSize(50);
+  textSize(30);
   text(yourScore, 330, 50);
   fill(0,0,0);
   startTimer.countDown();
