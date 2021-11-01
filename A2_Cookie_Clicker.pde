@@ -33,6 +33,5 @@ void mousePressed()
   if (mouseX > cookieX && mouseX < cookieX + 400 && mouseY > cookieY && mouseY < cookieY + 400) //Credit: https://openprocessing.org/sketch/577283/
   { 
     yourScore++;
-  }
-  
+  } 
 }
